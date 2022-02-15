@@ -1,0 +1,75 @@
+.description {
+  height: 0;
+  background-color: floralwhite;
+  border-radius: 20px;
+  color: #282c34;
+  text-align: left;
+  transition: 0.5s;
+  margin: 20px;
+  padding: 0 20px;
+  overflow: hidden;
+
+  &-description {
+    max-width: 1200px;
+    padding-left: 10px;
+  }
+  &_episodes {
+    display: flex;
+    padding-left: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+}
+
+.visible {
+  height: 500px;
+  padding: 10px 20px;
+}
+
+.episode {
+  margin: 0 5px;
+  position: relative;
+  border-radius: 5px 5px 20px 20px;
+  padding: 0 10px;
+  &:hover {
+    background: rgba(0, 0, 0, 0.3);
+    transition: 0.3s
+  }
+  &_info {
+    display: flex;
+
+    h3 {
+      width: 50%
+    }
+  }
+  &_date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &_button {
+    width: 100px;
+    color: #fff;
+    background-color: #282c34;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+
+  &-eye {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    fill: black;
+    transition: 0.3s;
+
+    &:hover {
+        width: 30px;
+        height: 30px;
+    }
+  }
+}
