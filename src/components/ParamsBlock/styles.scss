@@ -1,0 +1,25 @@
+.controller {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+
+    &_item {
+      display: flex;
+      gap: 5px;
+      text-align: center;
+      min-width: 50px;
+      padding: 10px 20px;
+      background-color: #282c34;
+      border-radius: 20px;
+    }
+}
+
+.red {
+    color: #ff0024;
+}
+.green {
+    color: #30b43d
+}
+.yellow {
+    color: yellow;
+}
