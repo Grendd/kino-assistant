@@ -1,0 +1,13 @@
+.block {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+    &-title {
+        text-align: left;
+        padding-left: 10px;
+    }
+    &-wrapper {
+        padding: 5px 20px;
+    }
+}
